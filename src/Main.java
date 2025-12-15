@@ -8,8 +8,9 @@ public class Main {
 
         List<String> result = EmailProcessor.process(data);
 
+        System.out.println("Kết quả sau khi lọc: ");
         for (String s : result) {
-            System.out.println(s);
+            System.out.println("-"+s);
         }
     }
 }
